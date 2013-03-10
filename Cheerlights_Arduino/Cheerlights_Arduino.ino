@@ -1,5 +1,15 @@
+/*
+ Cheerlights for Arduino.
+ Many thanks to the prople who made the original codes, as soon as i find all the pages i will give credit here.
 
-//---bof---RGBL-Analog Preamble
+ Manyt hanks to https://github.com/noisufnoc/CheerlightsPi for his excellent code
+ 
+ This sketch uses the 3 PWM outputs on the Arduino to drive a RGB led or 0 - 5v output .
+
+ I hacked this together from other sketches that were available on the internet
+*/
+
+
 //RGB LED pins
 int ledAnalogOne[] = {3, 5, 6}; 
 //the three pins of the first analog LED 3 = redPin, 5 = greenPin, 6 = bluePin                                
@@ -7,8 +17,8 @@ int ledAnalogOne[] = {3, 5, 6};
 
 //Defined Colors (different RGB (red, green, blue) values for colors
 const byte RED[] = {0, 255, 255}; 
-const byte ORANGE[] = {172, 251, 255}; 
-const byte YELLOW[] = {0, 200, 255}; 
+const byte ORANGE[] = {0, 120, 255}; 
+const byte YELLOW[] = {0, 170, 255}; 
 const byte GREEN[] = {255, 0, 255}; 
 const byte BLUE[] = {255, 255, 0}; 
 const byte INDIGO[] = {200, 255, 220}; //? 
