@@ -17,10 +17,9 @@
 */
 
 
-//RGB LED pins
+//Setting the RGB led PWM Pins
 int ledAnalogOne[] = {3, 5, 6}; 
 //the three pins of the first analog LED 3 = redPin, 5 = greenPin, 6 = bluePin                                
-//These pins must be PWM
 
 //Defined Colors (different RGB (red, green, blue) values for colors
 const byte RED[] = {0, 255, 255}; 
@@ -39,7 +38,6 @@ const byte PURPLE[] = {100, 255, 160};
 //---eof---RGBL-Analog Preamble
 
 // Variable Setup
-long lastConnectionTime = 0; 
 String lastCommandString = "";
 byte lastCommand[] = {255, 255, 255};
 
@@ -80,9 +78,8 @@ void loop() {
     Serial.println("CheerLight Command Received: "+String(stringIn));
     delay(200);
    
-    // Light the tree
+    
     if (String(stringIn) == "white")
-    //if (response.indexOf("white") > 0)
     {  
        fadeToColor(ledAnalogOne, lastCommand, WHITE, 10);
        delay(3000);
@@ -92,7 +89,6 @@ void loop() {
        lastCommandString = "white";  
     }
     else if (String(stringIn) == "black")
-    //else if (response.indexOf("black") > 0)
     {  
        fadeToColor(ledAnalogOne, lastCommand, BLACK, 10);  
        delay(3000);
