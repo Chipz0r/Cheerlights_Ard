@@ -3,7 +3,9 @@ Cheerlights_Ard
 
 Cheerlights code for arduino
 
-Thanks to the original authors who made the code , i will give credits now it works .
+Thanks to the original authors who made the code.
+
+Thanks to https://github.com/noisufnoc/CheerlightsPi for his excellent code and initial inspiration
 
 Here's why i did it .
 
