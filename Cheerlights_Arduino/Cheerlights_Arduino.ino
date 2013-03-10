@@ -17,7 +17,7 @@ int ledAnalogOne[] = {3, 5, 6};
 
 //Defined Colors (different RGB (red, green, blue) values for colors
 const byte RED[] = {0, 255, 255}; 
-const byte ORANGE[] = {0, 120, 255}; 
+const byte ORANGE[] = {0, 235, 255}; 
 const byte YELLOW[] = {0, 170, 255}; 
 const byte GREEN[] = {255, 0, 255}; 
 const byte BLUE[] = {255, 255, 0}; 
