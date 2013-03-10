@@ -64,7 +64,7 @@ void loop() {
     delay(200);
    
     // Light the tree
-    if (String(stringIn) == "red")
+    if (String(stringIn) == "white")
     //if (response.indexOf("white") > 0)
     {  
        fadeToColor(ledAnalogOne, lastCommand, WHITE, 10);
