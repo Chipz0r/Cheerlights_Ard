@@ -1,12 +1,19 @@
 /*
  Cheerlights for Arduino.
+ 
  Many thanks to the prople who made the original codes, as soon as i find all the pages i will give credit here.
 
- Manyt hanks to https://github.com/noisufnoc/CheerlightsPi for his excellent code
+ Manyt thanks to https://github.com/noisufnoc/CheerlightsPi for his excellent code
  
  This sketch uses the 3 PWM outputs on the Arduino to drive a RGB led or 0 - 5v output .
 
  I hacked this together from other sketches that were available on the internet
+ 
+ Project updates can be found at https://github.com/Chipz0r/Cheerlights_Ard
+ 
+ And http://www.xmas4all.co.uk
+ 
+ Enjoy
 */
 
 
